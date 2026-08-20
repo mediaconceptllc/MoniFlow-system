@@ -1,0 +1,1 @@
+import{o as e}from"./useStore-DCim0WvV.js";import{t}from"./app-shell-DPqzVCSD.js";import{i as n}from"./index-DMv6sURF.js";import{t as r}from"./auth-gate-BI-sw6V5.js";var i=e();function a(){return(0,i.jsx)(r,{children:(0,i.jsx)(t,{track:`ops`,children:(0,i.jsx)(n,{})})})}export{a as component};

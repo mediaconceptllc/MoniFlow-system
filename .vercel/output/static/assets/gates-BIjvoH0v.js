@@ -1,0 +1,1 @@
+import{o as e}from"./useStore-DCim0WvV.js";import{t}from"./useNavigate-C0dLkSVF.js";import{n}from"./use-current-user--1WtP9Uc.js";var r=e(),i=`/login`;function a({children:e}){let{user:t}=n();return t?(0,r.jsx)(r.Fragment,{children:e}):null}function o({to:e=i}){return(0,r.jsx)(t,{to:e})}export{a as n,o as t};

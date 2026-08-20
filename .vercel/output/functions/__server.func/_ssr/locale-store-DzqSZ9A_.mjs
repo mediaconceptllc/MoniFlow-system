@@ -1,0 +1,487 @@
+import { t as create } from "../_libs/zustand.mjs";
+//#region node_modules/.nitro/vite/services/ssr/assets/locale-store-DzqSZ9A_.js
+var STRINGS = {
+	mn: {
+		app: "MoniFlow",
+		tagline: "Хөгжүүлэлт ба хэрэглэгчийн дэмжлэг — хоёр тусдаа урсгал",
+		engineering: "Хөгжүүлэлт",
+		helpdesk: "Тусламж",
+		portal: "Хэрэглэгчийн портал",
+		signIn: "Нэвтрэх",
+		signOut: "Гарах",
+		signUp: "Бүртгүүлэх",
+		continueGoogle: "Google-ээр үргэлжлүүлэх",
+		continueX: "X-ээр үргэлжлүүлэх",
+		email: "Имэйл",
+		password: "Нууц үг",
+		name: "Нэр",
+		command: "Командын төв",
+		myWork: "Миний ажил",
+		triage: "Triage",
+		board: "Приорити самбар",
+		qaQueue: "QA дараалал",
+		releases: "Release",
+		inbox: "Тикетийн inbox",
+		admin: "Админ",
+		newItem: "Шинэ ажлын зүйл",
+		newTicket: "Шинэ тикет",
+		reportIssue: "Гомдол / санал илгээх",
+		search: "Хайх",
+		save: "Хадгалах",
+		cancel: "Цуцлах",
+		submit: "Илгээх",
+		escalate: "Хөгжүүлэлт рүү шилжүүлэх",
+		decide: "Шийдвэр",
+		comment: "Тайлбар",
+		evidence: "Нотлох баримт",
+		status: "Төлөв",
+		priority: "Зэрэглэл",
+		owner: "Эзэн",
+		assignee: "Гүйцэтгэгч",
+		type: "Төрөл",
+		module: "Модуль",
+		score: "Оноо",
+		effort: "Хүндрэл",
+		due: "Хугацаа",
+		aging: "Хөдөлгөөнгүй",
+		blocked: "Түгжигдсэн",
+		overdue: "Хэтэрсэн",
+		untriaged: "Triage-гүй",
+		openWork: "Нээлттэй ажил",
+		openTickets: "Нээлттэй тикет",
+		slaBreach: "SLA хэтэрсэн",
+		waitingCustomer: "Хэрэглэгч хүлээгдэж",
+		escalated: "Шилжүүлсэн",
+		emptyEng: "Энэ самбарт ажлын зүйл алга.",
+		emptyDesk: "Тикет алга. Хэрэглэгчийн гомдол энд тусдаа бүртгэгдэнэ.",
+		emptyPortal: "Таны илгээсэн гомдол, санал, алдаа энд харагдана.",
+		tracksNeverMix: "Хэрэглэгчийн тикет хөгжүүлэлтийн самбарт ордоггүй.",
+		landingLead: "Нэг асуудал нэг ID. Шийдвэр, хариуцлага, QA, release алдагдахгүй. Хэрэглэгчийн гомдол тусдаа helpdesk дээр амьдарна.",
+		landingEng: "Bug, feature, incident, QA, release — P0–P3, оноо, gate, audit.",
+		landingDesk: "Гомдол, санал, алдаа, төлбөр — SLA, хариу, хэрэглэгч рүү буцах. Хөгжүүлэлттэй холилдохгүй.",
+		firstAccount: "Эхний нэвтэрсэн хэрэглэгч админ болно.",
+		captureHint: "3 минутаас бага хугацаанд бүртгэнэ үү.",
+		noPermission: "Энэ үйлдэл таны дүрд хориотой.",
+		attach: "Файл / зураг",
+		caption: "Тайлбар",
+		acceptance: "Acceptance criteria",
+		rationale: "Үндэслэл",
+		strategic: "Стратегийн уялдаа",
+		notifications: "Мэдэгдэл",
+		markRead: "Уншсан болгох",
+		members: "Гишүүд",
+		role: "Дүр",
+		locale: "Хэл",
+		created: "Үүссэн",
+		updated: "Шинэчилсэн",
+		nextAction: "Дараагийн үйлдэл",
+		linkedWork: "Холбоотой хөгжүүлэлт",
+		linkedTicket: "Эх тикет",
+		customer: "Хэрэглэгч",
+		device: "Төхөөрөмж",
+		version: "Хувилбар",
+		none: "Байхгүй",
+		all: "Бүгд",
+		filter: "Шүүлт",
+		addComment: "Тайлбар нэмэх",
+		recordDecision: "Шийдвэр бүртгэх",
+		pass: "Pass",
+		fail: "Fail",
+		qaEvidence: "QA нотолгоо",
+		releaseNote: "Release note",
+		verification: "Production баталгаажуулалт",
+		closed: "Хаасан",
+		reopen: "Дахин нээх",
+		duplicate: "Давхардсан",
+		needsInfo: "Мэдээлэл дутуу",
+		myTickets: "Миний тикетүүд",
+		staffOnly: "Зөвхөн дотоод баг",
+		portalBlurb: "MoniChat-ийн хэрэглэгч та гомдол, санал, алдаагаа энд бүртгэнэ. Энэ нь хөгжүүлэлтийн самбар биш.",
+		category: "Ангилал",
+		subject: "Гарчиг",
+		whatHappened: "Юу болсон бэ",
+		expected: "Хүссэн үр дүн",
+		steps: "Давтах алхам",
+		impact: "Нөлөө",
+		growth: "Өсөлт",
+		retention: "Retention",
+		payment: "Төлбөр",
+		stability: "Тогтвортой байдал",
+		network: "Сүлжээний эффект",
+		polish: "Polish",
+		loading: "Ачааллаж байна…",
+		welcomeBack: "Ажлын байр",
+		viewAll: "Бүгдийг харах",
+		recent: "Сүүлд",
+		agingAlert: "Хөдөлгөөнгүй зүйлс",
+		p0pin: "P0 / P1 онцгой",
+		definitionOfDone: "Definition of Done",
+		gate: "Чанарын gate"
+	},
+	en: {
+		app: "MoniFlow",
+		tagline: "Engineering and customer support — two tracks that never mix",
+		engineering: "Engineering",
+		helpdesk: "Helpdesk",
+		portal: "Customer portal",
+		signIn: "Sign in",
+		signOut: "Sign out",
+		signUp: "Create account",
+		continueGoogle: "Continue with Google",
+		continueX: "Continue with X",
+		email: "Email",
+		password: "Password",
+		name: "Name",
+		command: "Command center",
+		myWork: "My work",
+		triage: "Triage",
+		board: "Priority board",
+		qaQueue: "QA queue",
+		releases: "Releases",
+		inbox: "Ticket inbox",
+		admin: "Admin",
+		newItem: "New work item",
+		newTicket: "New ticket",
+		reportIssue: "Report an issue",
+		search: "Search",
+		save: "Save",
+		cancel: "Cancel",
+		submit: "Submit",
+		escalate: "Escalate to engineering",
+		decide: "Decision",
+		comment: "Comment",
+		evidence: "Evidence",
+		status: "Status",
+		priority: "Priority",
+		owner: "Owner",
+		assignee: "Assignee",
+		type: "Type",
+		module: "Module",
+		score: "Score",
+		effort: "Effort",
+		due: "Due",
+		aging: "Aging",
+		blocked: "Blocked",
+		overdue: "Overdue",
+		untriaged: "Untriaged",
+		openWork: "Open work",
+		openTickets: "Open tickets",
+		slaBreach: "SLA breached",
+		waitingCustomer: "Waiting on customer",
+		escalated: "Escalated",
+		emptyEng: "No work items on this board.",
+		emptyDesk: "No tickets. Customer reports live here, not on the engineering board.",
+		emptyPortal: "Your complaints, suggestions, and defect reports appear here.",
+		tracksNeverMix: "Customer tickets never appear on the engineering board.",
+		landingLead: "One problem, one ID. Decisions, owners, QA, and release evidence never go missing. Customer complaints live on a separate helpdesk.",
+		landingEng: "Bugs, features, incidents, QA, release — P0–P3, scoring, gates, audit.",
+		landingDesk: "Complaints, suggestions, defects, billing — SLA, replies, customer loop. Never mixed with engineering.",
+		firstAccount: "The first signed-in account becomes admin.",
+		captureHint: "Capture in under three minutes.",
+		noPermission: "This action is not allowed for your role.",
+		attach: "File / screenshot",
+		caption: "Caption",
+		acceptance: "Acceptance criteria",
+		rationale: "Rationale",
+		strategic: "Strategic fit",
+		notifications: "Notifications",
+		markRead: "Mark read",
+		members: "Members",
+		role: "Role",
+		locale: "Language",
+		created: "Created",
+		updated: "Updated",
+		nextAction: "Next action",
+		linkedWork: "Linked engineering work",
+		linkedTicket: "Source ticket",
+		customer: "Customer",
+		device: "Device",
+		version: "Version",
+		none: "None",
+		all: "All",
+		filter: "Filter",
+		addComment: "Add comment",
+		recordDecision: "Record decision",
+		pass: "Pass",
+		fail: "Fail",
+		qaEvidence: "QA evidence",
+		releaseNote: "Release note",
+		verification: "Production verification",
+		closed: "Closed",
+		reopen: "Reopen",
+		duplicate: "Duplicate",
+		needsInfo: "Needs info",
+		myTickets: "My tickets",
+		staffOnly: "Internal staff only",
+		portalBlurb: "MoniChat users file complaints, suggestions, and defects here. This is not the engineering board.",
+		category: "Category",
+		subject: "Subject",
+		whatHappened: "What happened",
+		expected: "Expected result",
+		steps: "Steps to reproduce",
+		impact: "Impact",
+		growth: "Growth",
+		retention: "Retention",
+		payment: "Payment",
+		stability: "Stability",
+		network: "Network effect",
+		polish: "Polish",
+		loading: "Loading…",
+		welcomeBack: "Workspace",
+		viewAll: "View all",
+		recent: "Recent",
+		agingAlert: "Aging items",
+		p0pin: "P0 / P1 pinned",
+		definitionOfDone: "Definition of Done",
+		gate: "Quality gate"
+	}
+};
+var WORK_STATUS_LABEL = {
+	new: {
+		mn: "Шинэ",
+		en: "New"
+	},
+	triage: {
+		mn: "Triage",
+		en: "Triage"
+	},
+	needs_info: {
+		mn: "Мэдээлэл дутуу",
+		en: "Needs info"
+	},
+	approved_backlog: {
+		mn: "Батлагдсан backlog",
+		en: "Approved backlog"
+	},
+	in_progress: {
+		mn: "Хийгдэж байна",
+		en: "In progress"
+	},
+	in_review: {
+		mn: "Review",
+		en: "In review"
+	},
+	ready_for_qa: {
+		mn: "QA бэлэн",
+		en: "Ready for QA"
+	},
+	qa_failed: {
+		mn: "QA бүтэлгүйтсэн",
+		en: "QA failed"
+	},
+	ready_for_release: {
+		mn: "Release бэлэн",
+		en: "Ready for release"
+	},
+	released: {
+		mn: "Released",
+		en: "Released"
+	},
+	verified: {
+		mn: "Баталгаажсан",
+		en: "Verified"
+	},
+	closed: {
+		mn: "Хаалттай",
+		en: "Closed"
+	},
+	deferred: {
+		mn: "Хойшлуулсан",
+		en: "Deferred"
+	},
+	rejected: {
+		mn: "Татгалзсан",
+		en: "Rejected"
+	},
+	duplicate: {
+		mn: "Давхардсан",
+		en: "Duplicate"
+	}
+};
+var TICKET_STATUS_LABEL = {
+	new: {
+		mn: "Шинэ",
+		en: "New"
+	},
+	open: {
+		mn: "Нээлттэй",
+		en: "Open"
+	},
+	waiting_customer: {
+		mn: "Хэрэглэгч хүлээгдэж",
+		en: "Waiting on customer"
+	},
+	waiting_internal: {
+		mn: "Дотоод хүлээлт",
+		en: "Waiting internal"
+	},
+	escalated: {
+		mn: "Хөгжүүлэлт рүү",
+		en: "Escalated"
+	},
+	resolved: {
+		mn: "Шийдсэн",
+		en: "Resolved"
+	},
+	closed: {
+		mn: "Хаалттай",
+		en: "Closed"
+	},
+	duplicate: {
+		mn: "Давхардсан",
+		en: "Duplicate"
+	}
+};
+var WORK_TYPE_LABEL = {
+	incident: {
+		mn: "Incident",
+		en: "Incident"
+	},
+	bug: {
+		mn: "Алдаа",
+		en: "Bug"
+	},
+	feature: {
+		mn: "Шинэ боломж",
+		en: "Feature"
+	},
+	improvement: {
+		mn: "Сайжруулалт",
+		en: "Improvement"
+	},
+	tech_debt: {
+		mn: "Техникийн өр",
+		en: "Tech debt"
+	},
+	security: {
+		mn: "Аюулгүй байдал",
+		en: "Security"
+	},
+	research: {
+		mn: "Судалгаа",
+		en: "Research"
+	},
+	task: {
+		mn: "Даалгавар",
+		en: "Task"
+	}
+};
+var TICKET_CAT_LABEL = {
+	complaint: {
+		mn: "Гомдол",
+		en: "Complaint"
+	},
+	suggestion: {
+		mn: "Санал",
+		en: "Suggestion"
+	},
+	bug: {
+		mn: "Алдаа",
+		en: "Bug report"
+	},
+	billing: {
+		mn: "Төлбөр",
+		en: "Billing"
+	},
+	account: {
+		mn: "Бүртгэл",
+		en: "Account"
+	},
+	other: {
+		mn: "Бусад",
+		en: "Other"
+	}
+};
+var ROLE_LABEL = {
+	requester: {
+		mn: "Хүсэлт гаргагч",
+		en: "Requester"
+	},
+	product_owner: {
+		mn: "Product Owner",
+		en: "Product Owner"
+	},
+	tech_lead: {
+		mn: "Tech Lead",
+		en: "Tech Lead"
+	},
+	developer: {
+		mn: "Хөгжүүлэгч",
+		en: "Developer"
+	},
+	qa: {
+		mn: "QA",
+		en: "QA"
+	},
+	release_manager: {
+		mn: "Release Manager",
+		en: "Release Manager"
+	},
+	viewer: {
+		mn: "Харагч",
+		en: "Viewer"
+	},
+	admin: {
+		mn: "Админ",
+		en: "Admin"
+	},
+	support_agent: {
+		mn: "Дэмжлэгийн мэргэжилтэн",
+		en: "Support agent"
+	},
+	support_lead: {
+		mn: "Дэмжлэгийн ахлагч",
+		en: "Support lead"
+	}
+};
+var COMMENT_KIND_LABEL = {
+	note: {
+		mn: "Тэмдэглэл",
+		en: "Note"
+	},
+	question: {
+		mn: "Асуулт",
+		en: "Question"
+	},
+	answer: {
+		mn: "Хариулт",
+		en: "Answer"
+	},
+	decision: {
+		mn: "Шийдвэр",
+		en: "Decision"
+	},
+	risk: {
+		mn: "Эрсдэл",
+		en: "Risk"
+	},
+	evidence: {
+		mn: "Нотлох баримт",
+		en: "Evidence"
+	}
+};
+function t(locale, key) {
+	return STRINGS[locale][key] ?? STRINGS.en[key] ?? key;
+}
+function label(map, key, locale) {
+	return map[key]?.[locale] ?? map[key]?.en ?? key;
+}
+function readStored() {
+	if (typeof window === "undefined") return "mn";
+	try {
+		const v = window.localStorage.getItem("moniflow.locale");
+		if (v === "en" || v === "mn") return v;
+	} catch {}
+	return "mn";
+}
+var useLocale = create((set) => ({
+	locale: readStored(),
+	setLocale: (locale) => {
+		try {
+			window.localStorage.setItem("moniflow.locale", locale);
+		} catch {}
+		set({ locale });
+	}
+}));
+//#endregion
+export { WORK_STATUS_LABEL as a, t as c, TICKET_STATUS_LABEL as i, useLocale as l, ROLE_LABEL as n, WORK_TYPE_LABEL as o, TICKET_CAT_LABEL as r, label as s, COMMENT_KIND_LABEL as t };

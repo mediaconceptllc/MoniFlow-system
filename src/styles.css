@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400&display=swap");
+@import "tailwindcss";
+@import "tw-animate-css";
+
+@theme {
+  --color-bg: #0b0c0e;
+  --color-bg-elevated: #12141a;
+  --color-surface: #171a21;
+  --color-surface-2: #1d2129;
+  --color-fg: #eeeee8;
+  --color-muted: #9a9aa3;
+  --color-subtle: #6e717a;
+  --color-border: #2a2d36;
+  --color-border-strong: #3a3e48;
+  --color-primary: #e8e6e1;
+  --color-primary-fg: #0b0c0e;
+  --color-accent: #c5cbd4;
+  --color-ring: #c5cbd4;
+  --color-p0: #c45c4a;
+  --color-p1: #c48a4a;
+  --color-p2: #6a8aa8;
+  --color-p3: #6e717a;
+  --color-ok: #6f9b78;
+  --color-warn: #c4a15a;
+  --color-danger: #c45c4a;
+  --color-track-eng: #9aa7b8;
+  --color-track-desk: #a8b09a;
+
+  --font-sans: "Figtree", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Newsreader", ui-serif, Georgia, serif;
+  --font-mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+
+  --radius-xs: 4px;
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --radius: 12px;
+
+  --shadow-soft: 0 18px 40px -28px rgb(0 0 0 / 0.55);
+}
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color-scheme: dark;
+  }
+  html,
+  body,
+  #root {
+    min-height: 100%;
+    background: var(--color-bg);
+    color: var(--color-fg);
+  }
+  body {
+    font-family: var(--font-sans);
+    line-height: 1.5;
+  }
+  h1,
+  h2,
+  h3 {
+    font-family: var(--font-display);
+    text-wrap: balance;
+    letter-spacing: -0.03em;
+    font-weight: 500;
+    line-height: 1.15;
+  }
+  p {
+    text-wrap: pretty;
+  }
+  button:not(:disabled),
+  [role="button"]:not(:disabled) {
+    cursor: pointer;
+  }
+  select,
+  option {
+    color-scheme: dark;
+    background-color: var(--color-bg);
+    color: var(--color-fg);
+  }
+  input[type="file"] {
+    color-scheme: dark;
+  }
+  input[type="range"] {
+    accent-color: var(--color-accent);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+.serif {
+  font-family: var(--font-display);
+}

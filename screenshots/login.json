@@ -1,0 +1,35 @@
+{
+  "url": "http://127.0.0.1:8080/login",
+  "viewports": {
+    "desktop": {
+      "width": 1280,
+      "height": 800,
+      "status": 200,
+      "title": "MoniFlow",
+      "hasCanvas": false,
+      "bodyTextLen": 212,
+      "bodyTextHash": "7752ee59927d7fbc9ea3308049ba23b85ec57a15495d4d9dbe7e8ca3b116b2f0",
+      "bodyTextPrefix": "MoniFlow ХӨГЖҮҮЛЭЛТ БА ХЭРЭГЛЭГЧИЙН ДЭМЖЛЭГ — ХОЁР ТУСДАА УРСГАЛ",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/login.png"
+    },
+    "mobile": {
+      "width": 390,
+      "height": 844,
+      "status": 200,
+      "title": "MoniFlow",
+      "hasCanvas": false,
+      "bodyTextLen": 92,
+      "bodyTextHash": "eed96ac5cfb8e5c285abf9e9765c1d46204aaef5be39e70ab4f0c2af52abaec6",
+      "bodyTextPrefix": "Нэвтрэх EN X-ээр үргэлжлүүлэхX-ээр үргэлжлүүлэх ЭСВЭЛ ИМЭЙЛ Имэй",
+      "horizontalOverflow": false,
+      "consoleErrors": [],
+      "pageErrors": [],
+      "screenshot": "/workspace/screenshots/login-mobile.png"
+    }
+  },
+  "brandWarnings": [],
+  "verdictFile": "/workspace/screenshots/login.json"
+}
